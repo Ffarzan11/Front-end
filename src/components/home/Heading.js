@@ -1,11 +1,12 @@
-import {motion} from "framer-motion";
+import {motion} from "framer-motion"
 import index from "./index.css";
+import React from "react";
 
 const Heading = () => {
     return(
-        <div className="heading">
+        <motion.div className="heading" animate={{x:90}} transition={{duration:1.5}}>
             <span>EXPRESS YOURSELF THROUGH ART</span>
-        </div>
+        </motion.div>
     );
 }
 export default Heading;

@@ -1,4 +1,4 @@
-@import url("https: //fonts.googleapis.com/css?family=Arvo");
+@import url("https: //fonts.googleapis.com/css?family=Zilla Slab Highlight");
 * {
     background-color: #E3C9C9;
 }
@@ -12,23 +12,31 @@ img {
 .heads {
     float: left;
     padding: 0 9px 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Zilla Slab Highlight";
+    color: white
 }
 
 .heads:hover {
     text-decoration: underline;
 }
-.col {
-    border: 1px solid red !important;
-}
+ 
 
 .heading { 
     width: 50px;
-    line-height: 100px;
+    line-height: 120px;
+    padding-top: 8em;
 }
 .heading span{
-    font-family: "Arvo";
+    font-family: "Zilla Slab Highlight";
     font-style: italic;
-    font-size: 80px;
+    font-size: 100px;
     background-color: aliceblue;
+    color: #E3C9C9;
+    display: inline-block;
+}
+.head-img{
+    width: 110%;
+    height: 100%;
+    padding-right: 5em;
+    border-radius: 0;
 }
