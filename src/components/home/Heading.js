@@ -4,7 +4,7 @@ import React from "react";
 
 const Heading = () => {
     return(
-        <motion.div className="heading" animate={{x:90}} transition={{duration:1.5}}>
+        <motion.div className="heading" animate={{x:80}} transition={{duration:1.5}}>
             <span>EXPRESS YOURSELF THROUGH ART</span>
         </motion.div>
     );

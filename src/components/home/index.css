@@ -1,19 +1,26 @@
-@import url("https: //fonts.googleapis.com/css?family=Zilla Slab Highlight");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap');
 * {
     background-color: #E3C9C9;
 }
 
+body{
+    overflow-x: hidden;
+}
 img {
     border-radius: 20%;
     padding: 5px;
     width: 50px;
 }
 
+.info {
+    padding-right: 2%;
+}
+
 .heads {
     float: left;
     padding: 0 9px 10px;
-    font-family: "Zilla Slab Highlight";
-    color: white
+    font-family: sans-serif;
+    color: white;
 }
 
 .heads:hover {
@@ -27,16 +34,52 @@ img {
     padding-top: 8em;
 }
 .heading span{
-    font-family: "Zilla Slab Highlight";
-    font-style: italic;
+    font-family: "Dancing Script";
     font-size: 100px;
-    background-color: aliceblue;
-    color: #E3C9C9;
+    color: white;
     display: inline-block;
 }
 .head-img{
     width: 110%;
     height: 100%;
-    padding-right: 5em;
+    padding-right: 15%;
     border-radius: 0;
+}
+
+.sec-img{
+    top:30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    transform: translateY(-150px);
+    padding-left: 5%;
+}
+.stOne{
+    color: white;
+    padding-top: 2em;
+    font-size: 80px;
+    
+}
+.stTwo{
+    color: white;
+    font-size: 80px;
+    padding-left: 20%;
+}
+p{
+    padding-left: 20%;
+    padding-right: 10%;
+}
+.exploreButton {
+    position: relative;
+    padding-bottom: 10em;
+}
+.explore {
+    position:absolute;
+    right:40%;
+    width: 15em;
+    height: 4em;
+    border-radius: 8px;
+    background-color: #E13367;
+    border:none;
+    color:white
 }
